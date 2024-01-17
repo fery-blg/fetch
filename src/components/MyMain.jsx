@@ -4,7 +4,7 @@ import {
   CardBody,
   CardFooter,
   Typography,
-  Tooltip,
+  
 } from "@material-tailwind/react";
  
 export default function MyMain({movie}) {

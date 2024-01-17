@@ -5,49 +5,47 @@
       "description": "A mind-bending heist movie that explores the concept of dreams within dreams.",
       "posterURL": "https://www.themoviedb.org/t/p/original/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
       "rating": 8.7,
-      "id": "1800"
+      "id": "1800",
+      "trailer":"https://www.youtube.com/embed/YoHD9XEInc0"
     },
-    {
-      "title": "The Shawshank Redemption",
-      "description": "The story of a banker sentenced to life in Shawshank State Penitentiary and his journey to freedom.",
-      "posterURL": "https://www.tallengestore.com/cdn/shop/products/Movie_Poster_Art_-_The_Shawshank_Redemption_-_Tallenge_Hollywood_Poster_Collection_281a20ac-f062-4b7d-8ccc-436d690078af.jpg?v=1578138044",
-      "rating": 9.3,
-      "id": "dfbb"
-    },
+    
     {
       "title": "The Dark Knight",
       "description": "Batman faces the Joker, a criminal mastermind with a twisted sense of humor, in this intense superhero film.",
       "posterURL": "https://www.themoviedb.org/t/p/original/vGYJRor3pCyjbaCpJKC39MpJhIT.jpg",
       "rating": 9,
-      "id": "768f"
+      "id": "768f",
+      "trailer":"https://www.youtube.com/embed/EXeTwQWrcwY"
+
+
     },
     {
       "id": "a1b2",
       "title": "oppenheimer",
       "description": "Oppenheimer, American and British dramatic biographical film, released in 2023, that explores the life and legacy of the American physicist J. Robert Oppenheimer, who played a key role in the development of the atomic bomb.",
       "posterURL": "https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900",
-      "rating": "8.9"
+      "rating": "8.9",
+      "trailer":"https://www.youtube.com/embed/uYPbbksJxIg"
+
     },
     {
       "id": "db25",
       "title": "Barbie",
       "description": "a barbie movie",
       "posterURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQGrU6fKyJ6CjvdJ4tCESfS0s9rZcj-QQW749ipHjZ1aWuk-sfT",
-      "rating": "6.9"
+      "rating": "6.9",
+      "trailer":"https://www.youtube.com/embed/pBk4NYhWNMM"
+
     },
     {
       "id": "eee9",
       "title": "The Childe",
       "description": "\"The Childe\" focuses on a man born to a Korean father and a Filipino mother who aspires to be a boxer. He travels back to Korea in the hopes of tracking down his father, and in the process, he gets mixed up with some bad people.",
       "posterURL": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQf2BKGuLsbH_-IDGeFQjYT7bW-H925gPbj9ekSUyymE60nYPxS",
-      "rating": "8.4"
-    },
-    {
-      "id": "b84e",
-      "title": "black widows",
-      "description": "action movie",
-      "posterURL": "https://www.vintagemovieposters.co.uk/wp-content/uploads/2022/09/IMG_8076-scaled.jpeg",
-      "rating": "5"
+      "rating": "8.4",
+      "trailer":"https://www.youtube.com/embed/B_uThkfbPZQ"
+
     }
+   
   ]
 }

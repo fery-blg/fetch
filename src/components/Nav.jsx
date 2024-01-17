@@ -1,11 +1,12 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   Typography,
 } from "@material-tailwind/react";
+import React from "react";
  
 export default function Nav() {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [ setOpenNav] = React.useState(false);
  
   React.useEffect(() => {
     window.addEventListener(
@@ -22,9 +23,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           Movies
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -32,9 +33,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="/new" className="flex items-center">
+        <Link to="/new" className="flex items-center">
           new
-        </a>
+        </Link>
       </Typography>
      
     </ul>

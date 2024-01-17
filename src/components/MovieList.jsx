@@ -1,16 +1,20 @@
+import Movie from "./Movie";
+import { useNavigate } from "react-router-dom"
 import MyMain from "./MyMain";
 
 function MovieList({movies}) {
-    console.log(movies)
+  const navigate = useNavigate()
   return (
+
     <div style={{display:"flex", justifyContent:"center",flexWrap:"wrap"}}>
-      {movies.map((e, i) => {
-    return    <div style={{
-        padding:"25px"
-    }} key={i}>
-          <MyMain movie={e}  />
-        </div>;
-      })}
+     {movies.map((item, index) => {
+        return <button key={index}
+            onClick={() => {
+                navigate(`/movie/${item.id}`)
+            }}
+
+        > <MyMain movie={item} /> </button>
+    })}
     </div>
   );
 }
